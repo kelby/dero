@@ -85,4 +85,12 @@
   * daemon\_rpc
   * BlockHeader\_Print
   * wallet\_rpc
+  * [walletapi](apike-hu-duan/walletapi.md)
+    * cipher
+    * daemon\_communication
+    * db
+    * key\_to\_key
+    * [rpcserver](apike-hu-duan/walletapi/rpcserver.md)
+    * wallet
+    * wallet\_transfer
 

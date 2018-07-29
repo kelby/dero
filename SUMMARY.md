@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [区块链](chapter1.md)
+  * [Address](apike-hu-duan/address.md)
   * [Block](chapter1/block.md)
   * [Block\_Header](chapter1/blockheader.md)
   * [Input\_Mature](chapter1/inputmature.md)
@@ -19,8 +20,6 @@
   * [config](chapter1/config.md)
   * [emission](chapter1/emission.md)
   * TX\_Output\_Data
-  * globals
-  * proof
   * signature
   * transaction
   * [transaction\_extra](chapter1/transactionextra.md)
@@ -77,7 +76,6 @@
   * boltdb
   * [interface](shu-ju-cun-chu/interface.md)
 * [API/客户端/服务端](apike-hu-duan.md)
-  * [Address](apike-hu-duan/address.md)
   * [RPCServer](apike-hu-duan/rpcserver.md)
   * [dero-wallet-cli](apike-hu-duan/dero-wallet-cli.md)
   * [derod](apike-hu-duan/derod.md)
@@ -93,4 +91,5 @@
     * [rpcserver](apike-hu-duan/walletapi/rpcserver.md)
     * wallet
     * wallet\_transfer
+  * [mnemonics](apike-hu-duan/mnemonics.md)
 

@@ -20,6 +20,7 @@
   * [emission](chapter1/emission.md)
   * TX\_Output\_Data
   * globals
+  * proof
 * [数学/密码学](shu-5b66-mi-ma-xue.md)
   * [BASE58](shu-5b66-mi-ma-xue/base58.md)
   * [Median](shu-5b66-mi-ma-xue/median.md)
@@ -69,6 +70,9 @@
   * [wire\_structs](wang-luo-chuan-shu/wirestructs.md)
 * [数据存储](shu-ju-cun-chu.md)
   * [store](shu-ju-cun-chu/store.md)
+  * badgerdb
+  * boltdb
+  * [interface](shu-ju-cun-chu/interface.md)
 * [API/客户端/服务端](apike-hu-duan.md)
   * [Address](apike-hu-duan/address.md)
   * [RPCServer](apike-hu-duan/rpcserver.md)

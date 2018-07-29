@@ -16,9 +16,11 @@
   * transaction\_verify
   * tx\_fees
   * checkpoints
+  * [config](chapter1/config.md)
 * [数学/密码学](shu-5b66-mi-ma-xue.md)
   * [BASE58](shu-5b66-mi-ma-xue/base58.md)
   * [Median](shu-5b66-mi-ma-xue/median.md)
+  * common\_fe
 * [网络传输](wang-luo-chuan-shu.md)
 * [数据存储](shu-ju-cun-chu.md)
   * [store](shu-ju-cun-chu/store.md)

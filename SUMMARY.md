@@ -17,6 +17,7 @@
   * tx\_fees
   * checkpoints
   * [config](chapter1/config.md)
+  * [emission](chapter1/emission.md)
 * [数学/密码学](shu-5b66-mi-ma-xue.md)
   * [BASE58](shu-5b66-mi-ma-xue/base58.md)
   * [Median](shu-5b66-mi-ma-xue/median.md)
@@ -28,6 +29,24 @@
   * merkle
   * Precompute
   * [scrypt](shu-5b66-mi-ma-xue/scrypt.md)
+  * [rct](shu-5b66-mi-ma-xue/rct.md)
+    * basic
+    * bulletproof
+    * bulletproof\_fast
+    * bulletproof\_ultrafast
+    * key
+    * mlsag
+    * range
+    * ringct
+    * ringct\_full
+    * ringct\_simple
+    * varint
+  * [cryptonight](shu-5b66-mi-ma-xue/cryptonight.md)
+    * cryptonight
+    * cryptonightv7
+    * hash
+    * jhash
+    * keccak
 * [网络传输](wang-luo-chuan-shu.md)
 * [数据存储](shu-ju-cun-chu.md)
   * [store](shu-ju-cun-chu/store.md)

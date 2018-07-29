@@ -21,6 +21,13 @@
   * [BASE58](shu-5b66-mi-ma-xue/base58.md)
   * [Median](shu-5b66-mi-ma-xue/median.md)
   * common\_fe
+  * edwards25519
+  * [hash](shu-5b66-mi-ma-xue/hash.md)
+  * keccak
+  * [key](shu-5b66-mi-ma-xue/key.md)
+  * merkle
+  * Precompute
+  * [scrypt](shu-5b66-mi-ma-xue/scrypt.md)
 * [网络传输](wang-luo-chuan-shu.md)
 * [数据存储](shu-ju-cun-chu.md)
   * [store](shu-ju-cun-chu/store.md)

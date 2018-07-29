@@ -1,0 +1,6 @@
+```
+// quick scrypt wrapper
+```
+
+
+

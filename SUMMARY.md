@@ -21,6 +21,9 @@
   * TX\_Output\_Data
   * globals
   * proof
+  * signature
+  * transaction
+  * [transaction\_extra](chapter1/transactionextra.md)
 * [数学/密码学](shu-5b66-mi-ma-xue.md)
   * [BASE58](shu-5b66-mi-ma-xue/base58.md)
   * [Median](shu-5b66-mi-ma-xue/median.md)
@@ -79,4 +82,7 @@
   * [dero-wallet-cli](apike-hu-duan/dero-wallet-cli.md)
   * [derod](apike-hu-duan/derod.md)
   * [explorer](apike-hu-duan/explorer.md)
+  * daemon\_rpc
+  * BlockHeader\_Print
+  * wallet\_rpc
 

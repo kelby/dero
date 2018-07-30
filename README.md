@@ -1,3 +1,6 @@
-# My Awesome Book
+# DERO: Secure, Private CryptoNote DAG Blockchain with Smart Contracts
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+DERO is decentralized DAG\(Directed Acyclic Graph\) based blockchain with enhanced reliability, privacy, security, and usability. Consensus algorithm is PoW based on original cryptonight. DERO is industry leading and the first blockchain to have bulletproofs, TLS encrypted Network.
+
+
+

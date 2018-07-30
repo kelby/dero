@@ -84,7 +84,7 @@
   * BlockHeader\_Print
   * wallet\_rpc
   * [walletapi](apike-hu-duan/walletapi.md)
-    * cipher
+    * [cipher](apike-hu-duan/walletapi/cipher.md)
     * daemon\_communication
     * db
     * key\_to\_key

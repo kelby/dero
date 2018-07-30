@@ -69,5 +69,5 @@ GetPoWHash
 // Get PoW hash , this is very slow function
 ```
 
-
+设置 Proof 功能尚未实现，即还不能直接运用此软件进行挖矿。
 

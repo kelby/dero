@@ -61,5 +61,13 @@ GetTXSHash
 // we have discarded the merkle tree and have shifted to a plain version
 ```
 
+GetPoWHash
+
+针对在 GetBlockWork 的结果进行。
+
+```
+// Get PoW hash , this is very slow function
+```
+
 
 

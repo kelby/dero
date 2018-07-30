@@ -20,7 +20,6 @@ type Checksum [ChecksumLength]byte
 地址由 5 部分组成，其中 Network、SpendKey、ViewKey 部分为必需项，PaymentID 和 ChecksumLength 为可选项。
 
 ```
-
                                          Keccak
                       +-----------------------------------+
                       |                                   |
@@ -38,8 +37,17 @@ type Checksum [ChecksumLength]byte
                    +--------------------+
                    | CryptoNote Address |
                    +--------------------+
-
 ```
 
+GetChecksum
 
+Base58
+
+IsMainnet // tells whether address is mainnet address
+
+IsIntegratedAddress // tells whether address is mainnet address
+
+NewAddress
+
+NewAddressFromKeys // create a new address from keys
 

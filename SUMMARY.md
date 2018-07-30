@@ -85,7 +85,7 @@
   * wallet\_rpc
   * [walletapi](apike-hu-duan/walletapi.md)
     * [cipher](apike-hu-duan/walletapi/cipher.md)
-    * daemon\_communication
+    * [daemon\_communication](apike-hu-duan/walletapi/daemoncommunication.md)
     * db
     * key\_to\_key
     * [rpcserver](apike-hu-duan/walletapi/rpcserver.md)

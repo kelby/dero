@@ -9,7 +9,7 @@
   * [Mempool](chapter1/mempool.md)
   * [Blockchain](chapter1/blockchain.md)
   * [Create\_Miner\_TX](chapter1/createminer-tx.md)
-  * Difficulty
+  * [Difficulty](apike-hu-duan/difficulty.md)
   * [Generate\_Genesis\_Block](chapter1/generategenesis-block.md)
   * [Hard\_fork](chapter1/hardfork.md)
   * miner\_block

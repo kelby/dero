@@ -11,6 +11,8 @@ Prove
 // this function will prove detect and decode output amount for the tx
 ```
 
+Transaction\_Prefix
+
     // the core transaction
     type Transaction_Prefix struct {
         Version       uint64 `json:"version"`
@@ -23,6 +25,9 @@ Prove
         ExtraType     byte                      `json:"-"` // NOT used, candidate for deletion
     }
 
+
+Transaction
+
     type Transaction struct {
         Transaction_Prefix
         // same as Transaction_Prefix
@@ -34,5 +39,9 @@ Prove
         Expanded     bool `json:"-"`
     }
 
+交易拆分：
 
+前缀，后缀（即签名）
+
+前缀包含：输入、输出、额外数据、元数据。
 

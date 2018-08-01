@@ -80,9 +80,9 @@
   * [dero-wallet-cli](apike-hu-duan/dero-wallet-cli.md)
   * [derod](apike-hu-duan/derod.md)
   * [explorer](apike-hu-duan/explorer.md)
-  * daemon\_rpc
-  * BlockHeader\_Print
-  * wallet\_rpc
+  * [daemon\_rpc](apike-hu-duan/daemonrpc.md)
+  * [BlockHeader\_Print](apike-hu-duan/blockheaderprint.md)
+  * [wallet\_rpc](apike-hu-duan/walletrpc.md)
   * [walletapi](apike-hu-duan/walletapi.md)
     * [cipher](apike-hu-duan/walletapi/cipher.md)
     * [daemon\_communication](apike-hu-duan/walletapi/daemoncommunication.md)

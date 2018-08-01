@@ -1,3 +1,5 @@
+钱包 CMD
+
 ```
 dero-wallet-cli 
 DERO : A secure, private blockchain with smart-contracts
@@ -15,7 +17,7 @@ Usage:
   --offline     Run the wallet in completely offline mode 
   --offline_datafile=<file>  Use the data in offline mode default ("getoutputs.bin") in current dir
   --prompt      Disable menu and display prompt
-  --testnet  	Run in testnet mode.
+  --testnet      Run in testnet mode.
   --debug       Debug mode enabled, print log messages
   --unlocked    Keep wallet unlocked for cli commands (Does not confirm password before commands)
   --generate-new-wallet Generate new wallet

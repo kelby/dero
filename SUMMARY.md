@@ -21,8 +21,9 @@
   * [emission](chapter1/emission.md)
   * TX\_Output\_Data
   * signature
-  * transaction
+  * [transaction](apike-hu-duan/transaction.md)
   * [transaction\_extra](chapter1/transactionextra.md)
+  * proof
 * [数学/密码学](shu-5b66-mi-ma-xue.md)
   * [BASE58](shu-5b66-mi-ma-xue/base58.md)
   * [Median](shu-5b66-mi-ma-xue/median.md)

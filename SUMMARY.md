@@ -55,7 +55,7 @@
     * keccak
   * random
 * [网络传输](wang-luo-chuan-shu.md)
-  * bans
+  * [bans](wang-luo-chuan-shu/bans.md)
   * chain\_request
   * chain\_response
   * connection\_handler

@@ -46,6 +46,16 @@ Words\_To\_Key
 
 Key\_To\_Words
 
+只有 SpendKey 参与转换，其它项都是固定配置好的。
+
+SpendKey 共 32 字节，即 64 个字符，共 8 轮转换，每轮得到 3 个字（或单词）。
+
+转换之前：每个字符是 16 进制
+
+转换之后：每个字（或单词）是 1626 进制
+
+所以，我们的助记词可以做到更短，但又不失安全性。
+
 ```
 // this will map the key to recovery words from the spcific language
 // language must exist,if not we return english

@@ -1,5 +1,7 @@
 服务端：处理钱包相关 RPC 请求
 
+钱包 RPC
+
 ```
 /* this file implements the rpcserver api, so as wallet and block explorer tools can work without migration */
 

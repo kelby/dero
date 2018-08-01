@@ -56,7 +56,7 @@
   * random
 * [网络传输](wang-luo-chuan-shu.md)
   * [bans](wang-luo-chuan-shu/bans.md)
-  * chain\_request
+  * [chain\_request](wang-luo-chuan-shu/chainrequest.md)
   * chain\_response
   * connection\_handler
   * connection\_pool

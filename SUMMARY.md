@@ -13,7 +13,7 @@
   * [Difficulty](apike-hu-duan/difficulty.md)
   * [Generate\_Genesis\_Block](chapter1/generategenesis-block.md)
   * [Hard\_fork](chapter1/hardfork.md)
-  * miner\_block
+  * [miner\_block](apike-hu-duan/minerblock.md)
   * [outputs\_index](chapter1/outputsindex.md)
   * transaction\_verify
   * tx\_fees

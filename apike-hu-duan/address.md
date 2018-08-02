@@ -51,13 +51,13 @@ PaymentID 一般为 8 字节，16 字符。（此时总长度为 154）
                    +--------------------+
 ```
 
-GetChecksum
+GetChecksum 用 Keccak256 进行散列哈希获得
 
-Base58
+Base58 编码
 
-IsMainnet // tells whether address is mainnet address
+IsMainnet // tells whether address is mainnet address，可以根据前缀（Network）进行判断
 
-IsIntegratedAddress // tells whether address is mainnet address
+IsIntegratedAddress // tells whether address is mainnet address，可以根据前缀（Network）进行判断
 
 NewAddress
 

@@ -1,5 +1,7 @@
 Create\_new\_miner\_block
 
+自己构建“块”
+
 ```
 //NOTE: this function is quite naughty due to chicken and egg problem
 // we cannot calculate reward until we known blocksize ( exactly upto byte size )
@@ -25,6 +27,8 @@ Create\_new\_block\_template\_mining
 ```
 
 Accept\_new\_block
+
+接收到“块”
 
 ```
 // accept work given by us

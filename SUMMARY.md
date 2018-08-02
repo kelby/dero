@@ -8,6 +8,7 @@
   * [Input\_Mature](chapter1/inputmature.md)
   * [Mempool](chapter1/mempool.md)
   * [Blockchain](chapter1/blockchain.md)
+    * [GetBlockHeader](chapter1/blockchain/getblockheader.md)
   * [Create\_Miner\_TX](chapter1/createminer-tx.md)
   * [Difficulty](apike-hu-duan/difficulty.md)
   * [Generate\_Genesis\_Block](chapter1/generategenesis-block.md)

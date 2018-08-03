@@ -17,7 +17,7 @@
   * [outputs\_index](chapter1/outputsindex.md)
   * [transaction\_verify](apike-hu-duan/transactionverify.md)
   * [tx\_fees](apike-hu-duan/txfees.md)
-  * checkpoints
+  * [checkpoints](apike-hu-duan/checkpoints.md)
   * [config](chapter1/config.md)
   * [emission](chapter1/emission.md)
   * [TX\_Output\_Data](apike-hu-duan/txoutput-data.md)

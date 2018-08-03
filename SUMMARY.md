@@ -15,7 +15,7 @@
   * [Hard\_fork](chapter1/hardfork.md)
   * [miner\_block](apike-hu-duan/minerblock.md)
   * [outputs\_index](chapter1/outputsindex.md)
-  * transaction\_verify
+  * [transaction\_verify](apike-hu-duan/transactionverify.md)
   * tx\_fees
   * checkpoints
   * [config](chapter1/config.md)

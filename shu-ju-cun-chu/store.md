@@ -52,5 +52,21 @@ var PLANET_TX_MINED = []byte("MIN")          // all blocks where tx is mined in 
 var PLANET_TX_SIZE = []byte("SIZE")
 ```
 
+存储：
+
+Store\_Block\_Topological\_order
+
+Store\_TX
+
+Store\_TX\_Height
+
+Store\_BL
+
+Store\_TOPO\_HEIGHT
+
+Store\_TOP\_HEIGHT
+
+Store\_KeyImage
+
 
 

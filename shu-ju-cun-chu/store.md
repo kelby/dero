@@ -1,3 +1,5 @@
+storage.DBTX
+
 ```
 var BLOCKCHAIN_UNIVERSE = []byte("U") //[]byte("BLOCKCHAIN_UNIVERSE") // all block chain data is store in this BLOCKCHAIN_UNIVERSE
 

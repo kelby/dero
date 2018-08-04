@@ -95,6 +95,6 @@
     * [key\_to\_key](apike-hu-duan/walletapi/keyto-key.md)
     * [rpcserver](apike-hu-duan/walletapi/rpcserver.md)
     * [wallet](apike-hu-duan/walletapi/wallet.md)
-    * wallet\_transfer
+    * [wallet\_transfer](apike-hu-duan/walletapi/wallettransfer.md)
   * [mnemonics](apike-hu-duan/mnemonics.md)
 

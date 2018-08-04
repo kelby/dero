@@ -1,3 +1,5 @@
+Wallet ORM，与 db Wallet 交互。
+
     type _Keys struct {
         Spendkey_Secret crypto.Key `json:"spendkey_secret"`
         Spendkey_Public crypto.Key `json:"spendkey_public"`

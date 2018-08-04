@@ -38,5 +38,11 @@ type RPCServer struct {
 
 * Get\_Transfers
 
+重要请求：
+
+Transfer
+
+TransferSplit
+
 
 

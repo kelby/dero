@@ -93,7 +93,7 @@
     * [daemon\_communication](apike-hu-duan/walletapi/daemoncommunication.md)
     * [db Wallet](apike-hu-duan/walletapi/db.md)
     * [key\_to\_key](apike-hu-duan/walletapi/keyto-key.md)
-    * [rpcserver](apike-hu-duan/walletapi/rpcserver.md)
+    * [rpcserver for Wallet](apike-hu-duan/walletapi/rpcserver.md)
     * [wallet ORM](apike-hu-duan/walletapi/wallet.md)
     * [wallet\_transfer](apike-hu-duan/walletapi/wallettransfer.md)
   * [mnemonics](apike-hu-duan/mnemonics.md)

@@ -38,11 +38,9 @@ type RPCServer struct {
 
 * Get\_Transfers
 
-重要请求：
+重要请求：转账！
 
 Transfer
 
 TransferSplit
-
-
 

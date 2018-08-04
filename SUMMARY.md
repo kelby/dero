@@ -91,10 +91,10 @@
   * [walletapi](apike-hu-duan/walletapi.md)
     * [cipher](apike-hu-duan/walletapi/cipher.md)
     * [daemon\_communication](apike-hu-duan/walletapi/daemoncommunication.md)
-    * [db](apike-hu-duan/walletapi/db.md)
+    * [db Wallet](apike-hu-duan/walletapi/db.md)
     * [key\_to\_key](apike-hu-duan/walletapi/keyto-key.md)
     * [rpcserver](apike-hu-duan/walletapi/rpcserver.md)
-    * [wallet](apike-hu-duan/walletapi/wallet.md)
+    * [wallet ORM](apike-hu-duan/walletapi/wallet.md)
     * [wallet\_transfer](apike-hu-duan/walletapi/wallettransfer.md)
   * [mnemonics](apike-hu-duan/mnemonics.md)
 

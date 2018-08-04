@@ -25,7 +25,6 @@ Transaction\_Prefix
         ExtraType     byte                      `json:"-"` // NOT used, candidate for deletion
     }
 
-
 Transaction
 
     type Transaction struct {
@@ -44,4 +43,14 @@ Transaction
 前缀，后缀（即签名）
 
 前缀包含：输入、输出、额外数据、元数据。
+
+GetHash
+
+```
+		// version 2 requires first computing 3 separate hashes
+		// prefix, rctBase and rctPrunable
+		// and then hashing the hashes together to get the final hash
+```
+
+
 

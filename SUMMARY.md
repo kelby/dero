@@ -30,10 +30,10 @@
 * [数学/密码学](shu-5b66-mi-ma-xue.md)
   * [BASE58](shu-5b66-mi-ma-xue/base58.md)
   * [Median](shu-5b66-mi-ma-xue/median.md)
-  * common\_fe
-  * edwards25519
+  * [common\_fe](shu-5b66-mi-ma-xue/commonfe.md)
+  * [edwards25519](shu-5b66-mi-ma-xue/edwards25519.md)
   * [hash](shu-5b66-mi-ma-xue/hash.md)
-  * keccak
+  * [keccak](shu-5b66-mi-ma-xue/keccak.md)
   * [key](shu-5b66-mi-ma-xue/key.md)
   * merkle
   * Precompute

@@ -28,48 +28,51 @@ const NOTES_BY_TXID = 14                      // any notes attached
 
     // see this https://godoc.org/golang.org/x/crypto/pbkdf2
     type KDF struct {
-    	Hashfunction string `json:"hash"` //"SHA1" currently only sha1 is supported
-    	Keylen       int    `json:"keylen"`
-    	Iterations   int    `json:"iterations"`
-    	Salt         []byte `json:"salt"`
+        Hashfunction string `json:"hash"` //"SHA1" currently only sha1 is supported
+        Keylen       int    `json:"keylen"`
+        Iterations   int    `json:"iterations"`
+        Salt         []byte `json:"salt"`
     }
+
+
+钱包对象
 
     // this is stored in disk in encrypted form
     type Wallet struct {
-    	Version semver.Version `json:"version"` // database version
-    	Secret  []byte         `json:"secret"`  // actual unlocker to the DB, depends on password from user, stored encrypted
-    	// secret key used to encrypt all DB data ( both keys and values )
-    	// this is always in encrypted form
+        Version semver.Version `json:"version"` // database version
+        Secret  []byte         `json:"secret"`  // actual unlocker to the DB, depends on password from user, stored encrypted
+        // secret key used to encrypt all DB data ( both keys and values )
+        // this is always in encrypted form
 
-    	KDF KDF `json:"kdf"`
+        KDF KDF `json:"kdf"`
 
-    	account           *Account //`json:"-"` // not serialized, we store an encrypted version  // keys, seed language etc settings
-    	Account_Encrypted []byte   `json:"account_encrypted"`
+        account           *Account //`json:"-"` // not serialized, we store an encrypted version  // keys, seed language etc settings
+        Account_Encrypted []byte   `json:"account_encrypted"`
 
-    	pbkdf2_password []byte // used to encrypt metadata on updates
-    	master_password []byte // single password which never changes
+        pbkdf2_password []byte // used to encrypt metadata on updates
+        master_password []byte // single password which never changes
 
-    	Daemon_Endpoint   string `json:"-"` // endpoint used to communicate with daemon
-    	Daemon_Height     uint64 `json:"-"` // used to track  daemon height  ony if wallet in online
-    	Daemon_TopoHeight int64  `json:"-"` // used to track  daemon topo height  ony if wallet in online
+        Daemon_Endpoint   string `json:"-"` // endpoint used to communicate with daemon
+        Daemon_Height     uint64 `json:"-"` // used to track  daemon height  ony if wallet in online
+        Daemon_TopoHeight int64  `json:"-"` // used to track  daemon topo height  ony if wallet in online
 
-    	wallet_online_mode bool // set whether the mode is online or offline
-    	// an offline wallet can be converted to online mode, calling.
-    	// SetOffline() and vice versa using SetOnline
-    	// used to create transaction with this fee rate,
-    	//if this is lower than network, then created transaction will be rejected by network
-    	dynamic_fees_per_kb uint64
-    	quit                chan bool // channel to quit any processing go routines
+        wallet_online_mode bool // set whether the mode is online or offline
+        // an offline wallet can be converted to online mode, calling.
+        // SetOffline() and vice versa using SetOnline
+        // used to create transaction with this fee rate,
+        //if this is lower than network, then created transaction will be rejected by network
+        dynamic_fees_per_kb uint64
+        quit                chan bool // channel to quit any processing go routines
 
-    	db *bolt.DB // access to DB
+        db *bolt.DB // access to DB
 
-    	rpcserver *RPCServer // reference to RPCserver
+        rpcserver *RPCServer // reference to RPCserver
 
-    	id string // first 8 bytes of wallet address , to put into logs to identify different wallets in case many are active
+        id string // first 8 bytes of wallet address , to put into logs to identify different wallets in case many are active
 
-    	transfer_mutex sync.Mutex // to avoid races within the transfer
-    	//sync.Mutex  // used to syncronise access
-    	sync.RWMutex
+        transfer_mutex sync.Mutex // to avoid races within the transfer
+        //sync.Mutex  // used to syncronise access
+        sync.RWMutex
     }
 
 

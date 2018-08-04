@@ -25,6 +25,8 @@
   * [transaction](apike-hu-duan/transaction.md)
   * [transaction\_extra](chapter1/transactionextra.md)
   * proof
+  * [outputs](apike-hu-duan/outputs.md)
+  * [inputs](apike-hu-duan/inputs.md)
 * [数学/密码学](shu-5b66-mi-ma-xue.md)
   * [BASE58](shu-5b66-mi-ma-xue/base58.md)
   * [Median](shu-5b66-mi-ma-xue/median.md)

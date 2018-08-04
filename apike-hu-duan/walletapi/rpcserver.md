@@ -1,3 +1,5 @@
+处理外部提交过来的 Http 请求，后端由 Wallet 对象进行处理。
+
 ```
 // all components requiring access to wallet must use , this struct to communicate
 // this structure must be update while mutex

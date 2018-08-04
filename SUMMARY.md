@@ -92,7 +92,7 @@
     * [cipher](apike-hu-duan/walletapi/cipher.md)
     * [daemon\_communication](apike-hu-duan/walletapi/daemoncommunication.md)
     * [db](apike-hu-duan/walletapi/db.md)
-    * key\_to\_key
+    * [key\_to\_key](apike-hu-duan/walletapi/keyto-key.md)
     * [rpcserver](apike-hu-duan/walletapi/rpcserver.md)
     * wallet
     * wallet\_transfer

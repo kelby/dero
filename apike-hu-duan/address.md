@@ -63,3 +63,7 @@ NewAddress
 
 NewAddressFromKeys // create a new address from keys
 
+> 完全符合 cns007 - CryptoNote Keys and Addresses 所描述的内容。
+
+
+

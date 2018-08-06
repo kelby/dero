@@ -23,3 +23,7 @@ RctSignature
 
 Vin 只有高度信息。
 
+> 交易公私钥、混淆地址这块，完全符合 CryptoNote-whitepaper 里 Standard transaction structure 的描述。
+
+
+

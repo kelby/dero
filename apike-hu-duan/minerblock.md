@@ -1,6 +1,6 @@
-Create\_new\_miner\_block
+## Create\_new\_miner\_block
 
-自己构建“块”
+**自己构建“块”**
 
 ```
 //NOTE: this function is quite naughty due to chicken and egg problem
@@ -15,7 +15,15 @@ Create\_new\_miner\_block
 // TODO we need to rework fees algorithm, to improve its quality and lower fees
 ```
 
-Create\_new\_block\_template\_mining
+交易数据，可以从交易池里面获得；
+
+块的元数据，可以自己构建；
+
+Coinbase，可以自己创建；
+
+其它数据，可以从内存或者数据库里获取。
+
+#### Create\_new\_block\_template\_mining
 
 ```
 // returns a new block template ready for mining
@@ -26,7 +34,7 @@ Create\_new\_block\_template\_mining
 // tx hashes that follow
 ```
 
-Accept\_new\_block
+#### Accept\_new\_block
 
 接收到“块”
 

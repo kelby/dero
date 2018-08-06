@@ -57,5 +57,35 @@ type p2p_TX_Relayer func(*transaction.Transaction, uint64) int // function type,
 
 交易相关管理（has\_many）
 
+Init\_Mempool
 
+Init\_Block\_Mempool
+
+HouseKeeping
+
+Shutdown
+
+Monitor
+
+HasChanged
+
+Mempool\_Add\_TX
+
+Mempool\_TX\_Exist
+
+Mempool\_Keyimage\_Spent
+
+Mempool\_Delete\_TX
+
+Mempool\_Get\_TX
+
+Mempool\_List\_TX
+
+Mempool\_List\_TX\_SortedInfo
+
+Mempool\_Print
+
+Mempool\_flush
+
+Relayer\_and\_Cleaner
 

@@ -9,14 +9,14 @@ type Index_Data struct {
 }
 ```
 
-Read\_output\_index
+#### Read\_output\_index
 
 ```
 // this will read the output index data but will not deserialize it
 // this is exposed for rpcserver giving access to wallet
 ```
 
-Find\_TX\_Output\_Index
+#### Find\_TX\_Output\_Index
 
 ```
 // this function finds output index for the tx

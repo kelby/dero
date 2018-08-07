@@ -31,8 +31,6 @@ Vout 输出数据
 
 RctSignature 签名数据
 
-有简单的方式，通过观察即可验证；也有复杂的方式，需要通过计算才能验证。两种方式均通过验证，才是真正的、有效的“交易”。
-
 ```
 // all non miner tx must be non-coinbase tx
 // each check is placed in a separate  block of code, to avoid ambigous code or faulty checks
@@ -41,6 +39,8 @@ RctSignature 签名数据
 // if the transaction has passed the check it can be added to mempool, relayed or added to blockchain
 // the transaction has already been deserialized thats it
 ```
+
+有简单的方式，通过观察即可验证；也有复杂的方式，需要通过计算才能验证。两种方式均通过验证，才是真正的、有效的“交易”。
 
 #### Verify\_Transaction\_NonCoinbase\_DoubleSpend\_Check
 

@@ -25,7 +25,7 @@
   * [signature](apike-hu-duan/signature.md)
   * [transaction](apike-hu-duan/transaction.md)
   * [transaction\_extra](chapter1/transactionextra.md)
-  * proof
+  * [proof](apike-hu-duan/proof.md)
   * [outputs](apike-hu-duan/outputs.md)
   * [inputs](apike-hu-duan/inputs.md)
 * [数学/密码学](shu-5b66-mi-ma-xue.md)

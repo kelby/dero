@@ -40,11 +40,11 @@
   * [Precompute](shu-5b66-mi-ma-xue/precompute.md)
   * [scrypt](shu-5b66-mi-ma-xue/scrypt.md)
   * [rct](shu-5b66-mi-ma-xue/rct.md)
-    * basic
-    * bulletproof
-    * bulletproof\_fast
+    * [basic](shu-5b66-mi-ma-xue/rct/basic.md)
+    * [bulletproof](shu-5b66-mi-ma-xue/rct/bulletproof.md)
+    * [bulletproof\_fast](shu-5b66-mi-ma-xue/rct/bulletprooffast.md)
     * bulletproof\_ultrafast
-    * key
+    * [key](shu-5b66-mi-ma-xue/rct/key.md)
     * mlsag
     * range
     * ringct

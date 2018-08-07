@@ -1,6 +1,7 @@
 # Summary
 
 * [Dero](README.md)
+* [设计理念](she-ji-li-nian.md)
 * [区块链](chapter1.md)
   * [Address](apike-hu-duan/address.md)
   * [Block](chapter1/block.md)

@@ -6,5 +6,7 @@ Calculate\_TX\_fee
 // for every part of 1KB multiply by fee_per_kb
 ```
 
+根据数据大小，按每 KB 估算手续费。
+
 
 

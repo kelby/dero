@@ -48,9 +48,9 @@
     * [mlsag](shu-5b66-mi-ma-xue/rct/mlsag.md)
     * [range](shu-5b66-mi-ma-xue/rct/range.md)
     * [ringct](shu-5b66-mi-ma-xue/rct/ringct.md)
+    * [ringct methods](shu-5b66-mi-ma-xue/rct/ringct-methods.md)
     * ringct\_full
     * ringct\_simple
-    * varint
   * [cryptonight](shu-5b66-mi-ma-xue/cryptonight.md)
     * cryptonight
     * cryptonightv7

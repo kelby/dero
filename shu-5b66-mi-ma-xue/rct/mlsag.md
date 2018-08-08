@@ -1,12 +1,13 @@
 Get\_pre\_mlsag\_hash
 
+final\_data\_hash = message\_hash + base\_hash + other\_data\_hash
+
 ```
 // this file has license pending  since it triggers a hard to find golang bug TODO add license after the golang bug is fixed
 /* This file implements MLSAG signatures for the transactions */
 
 // get the hash of the transaction which is used to create the mlsag later on, this hash is input to MLSAG
 // the hash is = hash( message + hash(basehash) + hash(pederson and borromean data))
-
 ```
 
 MLSAG\_Ver

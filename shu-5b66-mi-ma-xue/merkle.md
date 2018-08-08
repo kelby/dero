@@ -23,7 +23,7 @@ HashMerkleBranches
 // function used to aid in the generation of a merkle tree.
 ```
 
-BuildMerkleTreeStore
+#### BuildMerkleTreeStore
 
 ```
 // BuildMerkleTreeStore creates a merkle tree from a slice of transaction hashes or tips hashes,
@@ -36,15 +36,15 @@ BuildMerkleTreeStore
 // children nodes.  A diagram depicting how this works for Decred transactions
 // where h(x) is a blake256 hash follows:
 //
-//	         root = h1234 = h(h12 + h34)
-//	        /                           \
-//	  h12 = h(h1 + h2)            h34 = h(h3 + h4)
-//	   /            \              /            \
-//	h1 = h(tx1)  h2 = h(tx2)    h3 = h(tx3)  h4 = h(tx4)
+//             root = h1234 = h(h12 + h34)
+//            /                           \
+//      h12 = h(h1 + h2)            h34 = h(h3 + h4)
+//       /            \              /            \
+//    h1 = h(tx1)  h2 = h(tx2)    h3 = h(tx3)  h4 = h(tx4)
 //
 // The above stored as a linear array is as follows:
 //
-// 	[h1 h2 h3 h4 h12 h34 root]
+//     [h1 h2 h3 h4 h12 h34 root]
 //
 // As the above shows, the merkle root is always the last element in the array.
 //

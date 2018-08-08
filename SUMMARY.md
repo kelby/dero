@@ -53,10 +53,10 @@
     * [ringct\_simple](shu-5b66-mi-ma-xue/rct/ringctsimple.md)
   * [cryptonight](shu-5b66-mi-ma-xue/cryptonight.md)
     * [cryptonight](shu-5b66-mi-ma-xue/cryptonight/cryptonight.md)
-    * cryptonightv7
-    * hash
-    * jhash
-    * keccak
+    * [cryptonightv7](shu-5b66-mi-ma-xue/cryptonight/cryptonightv7.md)
+    * [hash](shu-5b66-mi-ma-xue/cryptonight/hash.md)
+    * [jhash](shu-5b66-mi-ma-xue/cryptonight/jhash.md)
+    * [keccak](shu-5b66-mi-ma-xue/cryptonight/keccak.md)
   * random
   * [ECDH](shu-5b66-mi-ma-xue/ecdh.md)
 * [网络传输](wang-luo-chuan-shu.md)

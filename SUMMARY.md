@@ -52,7 +52,7 @@
     * [ringct\_full](shu-5b66-mi-ma-xue/rct/ringctfull.md)
     * [ringct\_simple](shu-5b66-mi-ma-xue/rct/ringctsimple.md)
   * [cryptonight](shu-5b66-mi-ma-xue/cryptonight.md)
-    * cryptonight
+    * [cryptonight](shu-5b66-mi-ma-xue/cryptonight/cryptonight.md)
     * cryptonightv7
     * hash
     * jhash

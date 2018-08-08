@@ -4,13 +4,13 @@
 // structure using which information is fed from wallet
 // these are only used while proving ringct simple
 type Input_info struct {
-	Amount       uint64      // amount in this input
-	Key_image    crypto.Hash // keyimage in this input
-	Index        int         // index position within ring members
-	Index_Global uint64
-	Ring_Members []uint64 // ring members  already sorted absolute
-	Pubs         []CtKey  // public keys from ring members ( secret key from our input)
-	Sk           CtKey    // secret key for the input
+    Amount       uint64      // amount in this input
+    Key_image    crypto.Hash // keyimage in this input
+    Index        int         // index position within ring members
+    Index_Global uint64
+    Ring_Members []uint64 // ring members  already sorted absolute
+    Pubs         []CtKey  // public keys from ring members ( secret key from our input)
+    Sk           CtKey    // secret key for the input
 }
 ```
 
@@ -18,16 +18,16 @@ type Input_info struct {
 
 ```
 type Output_info struct {
-	Amount           uint64     // only first output is locked
-	Public_View_Key  crypto.Key // taken from address
-	Public_Spend_Key crypto.Key // taken from address
-	Scalar_Key       crypto.Key // used to encrypt amounts
-	// Destination crypto.Key
-	//Addr  address.Address
+    Amount           uint64     // only first output is locked
+    Public_View_Key  crypto.Key // taken from address
+    Public_Spend_Key crypto.Key // taken from address
+    Scalar_Key       crypto.Key // used to encrypt amounts
+    // Destination crypto.Key
+    //Addr  address.Address
 }
 ```
 
-Gen\_RingCT\_Simple
+#### Gen\_RingCT\_Simple
 
 ```
 // this will prove  ringct signature
@@ -38,7 +38,7 @@ Gen\_RingCT\_Simple
 // this function is equivalent to genRctSimple in rctSigs.cpp
 ```
 
-Gen\_RingCT\_Simple\_BulletProof
+#### Gen\_RingCT\_Simple\_BulletProof
 
 ```
 // this will prove  ringct signature using bullet proof ranges

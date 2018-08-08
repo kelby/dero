@@ -46,8 +46,8 @@
     * [bulletproof\_ultrafast](shu-5b66-mi-ma-xue/rct/bulletproofultrafast.md)
     * [key](shu-5b66-mi-ma-xue/rct/key.md)
     * [mlsag](shu-5b66-mi-ma-xue/rct/mlsag.md)
-    * range
-    * ringct
+    * [range](shu-5b66-mi-ma-xue/rct/range.md)
+    * [ringct](shu-5b66-mi-ma-xue/rct/ringct.md)
     * ringct\_full
     * ringct\_simple
     * varint

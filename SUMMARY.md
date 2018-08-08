@@ -57,7 +57,7 @@
     * [hash](shu-5b66-mi-ma-xue/cryptonight/hash.md)
     * [jhash](shu-5b66-mi-ma-xue/cryptonight/jhash.md)
     * [keccak](shu-5b66-mi-ma-xue/cryptonight/keccak.md)
-  * random
+  * [random](shu-5b66-mi-ma-xue/random.md)
   * [ECDH](shu-5b66-mi-ma-xue/ecdh.md)
 * [网络传输](wang-luo-chuan-shu.md)
   * [bans](wang-luo-chuan-shu/bans.md)

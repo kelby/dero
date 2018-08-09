@@ -41,5 +41,7 @@ type RPCServer struct {
 * SendRawTransaction
 * SubmitBlock
 
+它只是服务接口，具体业务由 Wallet 对象进行处理。
+
 
 

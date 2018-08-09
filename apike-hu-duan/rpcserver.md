@@ -15,6 +15,8 @@ type RPCServer struct {
 }
 ```
 
+携带着 Params 参数请求过来，由对应 Handler 进行处理，返回对应 Result.
+
 请求：
 
 * Echo

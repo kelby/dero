@@ -32,7 +32,7 @@ type TX_Sorting_struct struct {
 }
 ```
 
-“交易池”所存储对象，不仅仅是“交易”，还有一些附加属性。
+“交易池”所存储的具体对象（mempool\_object），不仅仅是“交易”，还有一些附加属性。
 
 ```
 // this object is serialized  and deserialized
@@ -53,9 +53,9 @@ type p2p_TX_Relayer func(*transaction.Transaction, uint64) int // function type,
 
 功能：
 
-自我管理（self）
+自我管理（self，状态、生命周期等）
 
-交易相关管理（has\_many）
+交易相关管理（has\_many，交易、KeyImage 等）
 
 方法：
 
@@ -89,5 +89,5 @@ Mempool\_Print
 
 Mempool\_flush
 
-Relayer\_and\_Cleaner
+Relayer\_and\_Cleaner（协程 + 死循环，即可构建一个持续运行的服务）
 

@@ -27,7 +27,15 @@ ViewKey 32 字节，64 字符
 
 ChecksumLength 4 字节，8 字符
 
+```
+prefix, a.SpendKey[:], a.ViewKey[:], checksum[:]
+```
+
 总长度 138（如果包含 PaymentID，即为集成地址，会更长）
+
+```
+prefix, a.SpendKey[:], a.ViewKey[:], a.PaymentID, checksum[:]
+```
 
 PaymentID 一般为 8 字节，16 字符。（此时总长度为 154）
 

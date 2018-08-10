@@ -1,4 +1,6 @@
-## Create\_new\_miner\_block
+## 区块的产生
+
+#### Create\_new\_miner\_block
 
 **自己构建“块”**
 
@@ -23,7 +25,7 @@ Coinbase，可以自己创建；
 
 其它数据，可以从内存或者数据库里获取。
 
-#### Create\_new\_block\_template\_mining
+**Create\_new\_block\_template\_mining**
 
 ```
 // returns a new block template ready for mining
@@ -34,7 +36,7 @@ Coinbase，可以自己创建；
 // tx hashes that follow
 ```
 
-#### Accept\_new\_block
+**Accept\_new\_block**
 
 接收到“块”
 

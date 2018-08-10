@@ -89,5 +89,5 @@ Mempool\_Print
 
 Mempool\_flush
 
-Relayer\_and\_Cleaner（协程 + 死循环，即可构建一个持续运行的服务）
+Relayer\_and\_Cleaner（实现是“死循环” + 调用是“协程” ，即可构建一个持续运行的服务）
 

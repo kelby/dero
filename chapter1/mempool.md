@@ -57,6 +57,8 @@ type p2p_TX_Relayer func(*transaction.Transaction, uint64) int // function type,
 
 交易相关管理（has\_many）
 
+方法：
+
 Init\_Mempool
 
 Init\_Block\_Mempool

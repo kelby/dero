@@ -74,7 +74,7 @@
   * object\_response
   * [peer](wang-luo-chuan-shu/peer.md)
   * [peer\_pool](wang-luo-chuan-shu/peerpool.md)
-  * timedsync
+  * [timedsync](wang-luo-chuan-shu/timedsync.md)
   * [wire\_structs](wang-luo-chuan-shu/wirestructs.md)
 * [数据存储](shu-ju-cun-chu.md)
   * [store](shu-ju-cun-chu/store.md)

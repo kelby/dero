@@ -1,9 +1,13 @@
+当前还不支持 Txout\_to\_script
+
 ```
 type Txout_to_script struct {
     Keys   [][32]byte
     Script []byte
 }
 ```
+
+当前还不支持 Txout\_to\_scripthash
 
 ```
 type Txout_to_scripthash struct {

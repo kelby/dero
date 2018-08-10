@@ -5,6 +5,8 @@ type Txin_gen struct {
 }
 ```
 
+当前还不支持 Txin\_to\_script
+
 ```
 type Txin_to_script struct {
     Prev    [32]byte
@@ -12,6 +14,8 @@ type Txin_to_script struct {
     Sigset  []byte
 }
 ```
+
+当前还不支持 Txin\_to\_scripthash
 
 ```
 type Txin_to_scripthash struct {

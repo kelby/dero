@@ -82,7 +82,7 @@
   * [boltdb](shu-ju-cun-chu/boltdb.md)
   * [interface](shu-ju-cun-chu/interface.md)
 * [API/客户端/服务端](apike-hu-duan.md)
-  * [Wallet RPCServer](apike-hu-duan/rpcserver.md)
+  * [软件 RPCServer](apike-hu-duan/rpcserver.md)
   * [dero-wallet-cli](apike-hu-duan/dero-wallet-cli.md)
   * [derod](apike-hu-duan/derod.md)
   * [explorer](apike-hu-duan/explorer.md)

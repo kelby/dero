@@ -1,6 +1,6 @@
-服务端：处理钱包相关 RPC 请求
+服务端：处理软件相关 RPC 请求
 
-钱包 RPC
+软件 RPC
 
 ```
 /* this file implements the rpcserver api, so as wallet and block explorer tools can work without migration */
@@ -40,8 +40,6 @@ type RPCServer struct {
 * iskeyimagespent
 * SendRawTransaction
 * SubmitBlock
-
-它只是服务接口，具体业务由 Wallet 对象进行处理。
 
 
 

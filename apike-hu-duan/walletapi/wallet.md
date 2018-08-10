@@ -1,4 +1,4 @@
-Wallet ORM，与 db Wallet 交互。
+数据需要存储，Wallet ORM，连接数据库 db Wallet 与软件其它模块的桥梁。
 
     type _Keys struct {
         Spendkey_Secret crypto.Key `json:"spendkey_secret"`

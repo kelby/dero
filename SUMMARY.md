@@ -91,6 +91,7 @@
     * [cipher](apike-hu-duan/walletapi/cipher.md)
     * [daemon\_communication](apike-hu-duan/walletapi/daemoncommunication.md)
     * [db Wallet](apike-hu-duan/walletapi/db.md)
+    * [db Wallet methods](apike-hu-duan/walletapi/db-wallet-methods.md)
     * [key\_to\_key](apike-hu-duan/walletapi/keyto-key.md)
     * [wallet ORM](apike-hu-duan/walletapi/wallet.md)
     * [wallet ORM methods](apike-hu-duan/walletapi/wallet-orm-methods.md)

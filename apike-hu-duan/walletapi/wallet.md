@@ -1,11 +1,15 @@
 数据需要存储，Wallet ORM，连接数据库 db Wallet 与软件其它模块的桥梁。
 
+\_Keys
+
     type _Keys struct {
         Spendkey_Secret crypto.Key `json:"spendkey_secret"`
         Spendkey_Public crypto.Key `json:"spendkey_public"`
         Viewkey_Secret  crypto.Key `json:"viewkey_secret"`
         Viewkey_Public  crypto.Key `json:"viewkey_public"`
     }
+
+Ring\_Member
 
     // all random outputs are stored within wallet in this form
     // to be used as ring members
@@ -16,6 +20,8 @@
         Unlock_Height uint64       `msgpack:"U,omitempty"` // this is mostly empty
         Sigtype       uint64       `msgpack:"S,omitempty"` // this is empty for miner tx
     }
+
+Account
 
     type Account struct {
         Keys           _Keys   `json:"keys"`
@@ -54,6 +60,8 @@
         sync.Mutex // syncronise modifications to this structure
     }
 
+TX\_Wallet\_Data
+
     // this structure is kept by wallet
     type TX_Wallet_Data struct {
         TXdata globals.TX_Output_Data `msgpack:"txdata"` // all the fields of output data
@@ -66,6 +74,8 @@
         WPaymentID   []byte       `msgpack:"wpaymentid"`   // payment if if present and decrypted if required
         WSecretTXkey crypto.Key   `msgpack:"wsecrettxkey"` // tx secret which can be be used to prove that the funds have been spent
     }
+
+Entry
 
 ```
 type Entry struct {

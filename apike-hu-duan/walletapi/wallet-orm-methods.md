@@ -2,15 +2,36 @@
 
 Generate\_Keys\_From\_Random
 
+```
+// generate keys from using random numbers
+```
+
 Generate\_Keys\_From\_Seed
 
+```
+// generate keys from seed which is from the recovery words
+// or we feed in direct
+```
+
 Generate\_Account\_From\_Recovery\_Words
+
+```
+// generate user account using recovery seeds
+```
 
 Generate\_Account\_From\_Seed
 
 Generate\_Account\_View\_Only
 
+```
+// generate keys for view only wallet
+```
+
 Generate\_Account\_NONDeterministic\_Only
+
+```
+// generate keys for view only wallet
+```
 
 第二类：
 
@@ -97,6 +118,4 @@ GetSeedLanguage
 GetTXKey
 
 GetTXOutDetails
-
-
 

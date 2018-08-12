@@ -55,7 +55,7 @@ GetRandomIAddress32
 // output index is the position of vout within the tx list itself
 ```
 
-Generate\_Helper\_Key\_Image
+**Generate\_Helper\_Key\_Image**
 
 ```
 // this function does all the keyderivation required for decrypting ringct outputs, generate keyimage etc

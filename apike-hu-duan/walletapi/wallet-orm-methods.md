@@ -1,12 +1,12 @@
 第一类：
 
-Generate\_Keys\_From\_Random
+**Generate\_Keys\_From\_Random**
 
 ```
 // generate keys from using random numbers
 ```
 
-Generate\_Keys\_From\_Seed
+**Generate\_Keys\_From\_Seed**
 
 ```
 // generate keys from seed which is from the recovery words
@@ -47,9 +47,20 @@ GetRandomIAddress8
 
 GetRandomIAddress32
 
-Is\_Output\_Ours
+**Is\_Output\_Ours**
+
+```
+// one simple function which does all the crypto to find out whether output belongs to this account
+// NOTE: this function only uses view key secret and Spendkey_Public
+// output index is the position of vout within the tx list itself
+```
 
 Generate\_Helper\_Key\_Image
+
+```
+// this function does all the keyderivation required for decrypting ringct outputs, generate keyimage etc
+// also used when we build up a transaction for mining or sending amount
+```
 
 Decode\_RingCT\_Output
 

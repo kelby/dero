@@ -1,16 +1,3 @@
-EncryptDecryptPaymentID
-
-```
-// this function is used to encrypt/decrypt payment id
-// as the operation is symmetric XOR, is the same in both direction
-```
-
-Prove
-
-```
-// this function will prove detect and decode output amount for the tx
-```
-
 Transaction\_Prefix
 
     // the core transaction
@@ -43,16 +30,6 @@ Transaction
 前缀，后缀（即签名）
 
 前缀包含：输入、输出、额外数据、元数据。
-
-GetHash
-
-由 3 部分组合而成：prefix, rctBase and rctPrunable
-
-```
-        // version 2 requires first computing 3 separate hashes
-        // prefix, rctBase and rctPrunable
-        // and then hashing the hashes together to get the final hash
-```
 
 
 

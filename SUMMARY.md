@@ -43,6 +43,7 @@
   * [hash](shu-5b66-mi-ma-xue/hash.md)
   * [keccak](shu-5b66-mi-ma-xue/keccak.md)
   * [key](shu-5b66-mi-ma-xue/key.md)
+    * [key methods](shu-5b66-mi-ma-xue/key/key-methods.md)
   * [merkle](shu-5b66-mi-ma-xue/merkle.md)
   * [Precompute](shu-5b66-mi-ma-xue/precompute.md)
   * [scrypt](shu-5b66-mi-ma-xue/scrypt.md)

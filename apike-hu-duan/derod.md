@@ -31,5 +31,29 @@ Options:
   --node-tag=<unique name>    Unique name of node, visible to everyone
 ```
 
+```
+help
+
+diff
+dev_verify_pool
+dev_verify_chain_doublespend
+mempool_flush
+mempool_delete_tx
+mempool_print
+peer_list
+print_bc
+print_block
+print_height
+print_tx
+status
+start_mining
+stop_mining
+sync_info
+version
+bye
+exit
+quit
+```
+
 
 

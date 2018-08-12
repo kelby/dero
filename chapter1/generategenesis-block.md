@@ -1,3 +1,5 @@
+## 创世区块的产生
+
 参考 Block 数据结构，手动创建“创世区块”。
 
 Generate\_Genesis\_Block

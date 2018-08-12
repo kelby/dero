@@ -83,7 +83,7 @@
   * [store](shu-ju-cun-chu/store.md)
   * [store methods](shu-ju-cun-chu/store-methods.md)
   * [db Wallet](apike-hu-duan/walletapi/db.md)
-  * [db Wallet methods](apike-hu-duan/walletapi/db-wallet-methods.md)
+  * [db Wallet ORM methods](apike-hu-duan/walletapi/db-wallet-methods.md)
   * [badgerdb](shu-ju-cun-chu/badgerdb.md)
   * [boltdb](shu-ju-cun-chu/boltdb.md)
   * [interface](shu-ju-cun-chu/interface.md)

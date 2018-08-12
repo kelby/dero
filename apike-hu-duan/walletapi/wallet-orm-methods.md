@@ -41,6 +41,10 @@ GetSeedinLanguage
 
 GetViewWalletKey
 
+```
+// view wallet key consists of public spendkey and private view key
+```
+
 GetAddress
 
 GetRandomIAddress8

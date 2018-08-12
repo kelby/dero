@@ -16,19 +16,5 @@ const default_voting_window_size = 6000 // this many votes will counted
 const default_vote_percent = 62         // 62 percent votes means the hard fork is locked in
 ```
 
-硬分叉，没什么可怕：
-
-Check\_Block\_Version
-
-Get\_HF\_info
-
-Get\_Current\_Version
-
-Get\_Current\_Version\_at\_Height
-
-Get\_Ideal\_Version
-
-Get\_Ideal\_Version\_at\_Height
-
 
 
